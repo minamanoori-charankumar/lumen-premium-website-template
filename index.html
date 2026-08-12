@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+  LUMEN — COMMERCIAL TEMPLATE
+  Demo content is included for presentation purposes.
+  Replace brand details, testimonials, projects, contact information,
+  pricing, social links, and legal links before publishing a client site.
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumen — Premium Digital Studio Template</title>
+<meta name="description" content="Lumen is a premium digital studio website template for creative agencies, freelancers, and modern studios.">
+<meta name="theme-color" content="#f8f6f1">
+
+<!-- Preconnect + fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-ring"></span>
+    <span class="loader-word">LUMEN</span>
+  </div>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand" aria-label="Lumen — home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-word">Lumen</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#services"><span>Services</span></a>
+      <a href="#about"><span>About</span></a>
+      <a href="#work"><span>Work</span></a>
+      <a href="#pricing"><span>Pricing</span></a>
+      <a href="#faq"><span>FAQ</span></a>
+    </nav>
+
+    <a href="#contact" class="btn btn-small btn-dark nav-cta">
+      <span>Get the template</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMobile">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" class="nav-mobile-cta">Get the template</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-aurora" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+      <span class="grain-overlay"></span>
+    </div>
+
+    <div class="hero-inner">
+      <p class="eyebrow" data-reveal>
+        <span class="eyebrow-dot" aria-hidden="true"></span>
+        Premium Digital Studio Template
+      </p>
+
+      <h1 class="hero-title">
+        <span class="reveal-line"><span data-reveal-word>Design that</span></span>
+        <span class="reveal-line"><span data-reveal-word><em>earns</em> attention,</span></span>
+        <span class="reveal-line"><span data-reveal-word>not just holds it.</span></span>
+      </h1>
+
+      <p class="hero-sub" data-reveal>
+        A polished, responsive website template for studios, agencies,
+        freelancers, and creative teams. Customize the content, colors,
+        projects, and contact details to make it yours.
+      </p>
+
+      <div class="hero-actions" data-reveal>
+        <a href="#contact" class="btn btn-dark">
+          <span>Get the template</span>
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#work" class="btn btn-outline">
+          <span>Explore sections</span>
+        </a>
+      </div>
+
+      <div class="hero-proof" data-reveal>
+        <div class="proof-avatars" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <p><strong>6</strong> ready-to-edit demo sections and project cards</p>
+      </div>
+    </div>
+
+    <div class="hero-card glass" data-reveal data-tilt>
+      <div class="hero-card-top">
+        <span class="hero-card-tag">Featured project</span>
+        <span class="hero-card-year">2026</span>
+      </div>
+      <div class="hero-card-media" aria-hidden="true">
+        <div class="media-gradient"></div>
+      </div>
+      <div class="hero-card-bottom">
+        <h3>Northstar Finance — Demo Project</h3>
+        <p>Example project layout included with the template.</p>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span class="scroll-cue-line"></span>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ LOGO STRIP ============ -->
+  <section class="logo-strip" aria-label="Clients we've worked with">
+    <p class="logo-strip-label">Demo project concepts</p>
+    <div class="logo-row">
+      <span>Demo NORTHPEAK</span>
+      <span>Northstar Finance</span>
+      <span>Northline Creative</span>
+      <span>Forma Studio</span>
+      <span>Atlas Analytics</span>
+      <span>Mono Goods</span>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services section" id="services">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Services</p>
+      <h2 class="section-title" data-reveal>Everything a premium<br>studio site needs.</h2>
+      <p class="section-desc" data-reveal>
+        From first sketch to shipped product, we cover the full arc of
+        building a considered digital presence.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card glass" data-reveal data-tilt>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 5L34 13.5V26.5L20 35L6 26.5V13.5L20 5Z" stroke="currentColor" stroke-width="1.3"/><circle cx="20" cy="20" r="5.5" stroke="currentColor" stroke-width="1.3"/></svg>
+        </div>
+        <span class="service-num">01</span>
+        <h3>Brand Identity</h3>
+        <p>Naming, visual systems, and guidelines that give a company a voice worth remembering.</p>
+      </article>
+
+      <article class="service-card glass" data-reveal data-tilt>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="5" y="8" width="30" height="24" rx="3" stroke="currentColor" stroke-width="1.3"/><path d="M5 15H35" stroke="currentColor" stroke-width="1.3"/><circle cx="10" cy="11.5" r="1" fill="currentColor"/><circle cx="14" cy="11.5" r="1" fill="currentColor"/></svg>
+        </div>
+        <span class="service-num">02</span>
+        <h3>Web Design &amp; Build</h3>
+        <p>Marketing sites and web apps engineered for speed, clarity, and conversion.</p>
+      </article>
+
+      <article class="service-card glass" data-reveal data-tilt>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="10" y="4" width="20" height="32" rx="3" stroke="currentColor" stroke-width="1.3"/><path d="M16 30H24" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </div>
+        <span class="service-num">03</span>
+        <h3>Product Design</h3>
+        <p>UX research, interaction design, and design systems for teams shipping software.</p>
+      </article>
+
+      <article class="service-card glass" data-reveal data-tilt>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="1.3"/><path d="M20 11V20L26 24" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="service-num">04</span>
+        <h3>Motion &amp; Prototyping</h3>
+        <p>Micro-interactions and motion studies that make an interface feel alive, not decorated.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about section" id="about">
+    <div class="about-grid">
+      <div class="about-visual" data-reveal>
+        <div class="about-frame glass">
+          <div class="about-frame-inner">
+            <span class="frame-label">Est.</span>
+            <span class="frame-year">2026</span>
+          </div>
+        </div>
+        <div class="about-stat glass">
+          <span class="stat-num" data-count="100">0</span><span class="stat-unit">%</span>
+          <span class="stat-label">Customizable content</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> About the Template</p>
+        <h2 class="section-title" data-reveal>A premium foundation,<br>ready to customize.</h2>
+        <p class="about-lede" data-reveal>
+          Lumen gives your creative business a polished starting point
+          without forcing you to build a site from scratch.
+        </p>
+        <p class="section-desc" data-reveal>
+          Use this section to introduce your studio, freelance practice,
+          agency, or product. Replace the demo copy with your own story,
+          services, achievements, and positioning.
+        </p>
+
+        <div class="about-metrics" data-reveal>
+          <div class="metric">
+            <span class="metric-num" data-count="6">0</span><span class="metric-unit"></span>
+            <span class="metric-label">Demo projects</span>
+          </div>
+          <div class="metric">
+            <span class="metric-num" data-count="3">0</span><span class="metric-unit"></span>
+            <span class="metric-label">Core sections</span>
+          </div>
+          <div class="metric">
+            <span class="metric-num" data-count="1">0</span><span class="metric-unit"></span>
+            <span class="metric-label">Easy setup</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO / GALLERY ============ -->
+  <section class="work section" id="work">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Demo Work</p>
+      <h2 class="section-title" data-reveal>A few demo projects<br>to inspire your layout.</h2>
+    </div>
+
+    <div class="work-filters" role="tablist" aria-label="Filter work by category">
+      <button class="filter-btn is-active" role="tab" aria-selected="true" data-filter="all">All</button>
+      <button class="filter-btn" role="tab" aria-selected="false" data-filter="brand">Brand</button>
+      <button class="filter-btn" role="tab" aria-selected="false" data-filter="web">Web</button>
+      <button class="filter-btn" role="tab" aria-selected="false" data-filter="product">Product</button>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+
+      <article class="work-card" data-category="brand" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-01.svg" alt="Northstar Finance brand identity mockup on a desk" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Brand Identity</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Northstar Finance</h3>
+          <p>Example project layout included with the template.</p>
+        </div>
+      </article>
+
+      <article class="work-card" data-category="web" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-02.svg" alt="Forma Studio marketing website shown on a laptop screen" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Web Design</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Forma Studio</h3>
+          <p>Demo marketing website concept focused on clarity and conversion.</p>
+        </div>
+      </article>
+
+      <article class="work-card" data-category="product" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-03.svg" alt="Atlas Analytics product dashboard interface" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Product Design</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Atlas Analytics</h3>
+          <p>Example project layout included with the template.</p>
+        </div>
+      </article>
+
+      <article class="work-card" data-category="brand" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-04.svg" alt="Mono Goods packaging and stationery brand system" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Brand Identity</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Mono Goods</h3>
+          <p>Example project layout included with the template.</p>
+        </div>
+      </article>
+
+      <article class="work-card" data-category="web" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-05.svg" alt="Northline Creative agency portfolio website homepage" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Web Design</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Northline Creative</h3>
+          <p>Example project layout included with the template.</p>
+        </div>
+      </article>
+
+      <article class="work-card" data-category="product" data-reveal>
+        <div class="work-media">
+          <img src="assets/work-06.svg" alt="Orbit Mobile mobile app interface screens" loading="lazy" width="1200" height="900">
+          <div class="work-overlay">
+            <span class="work-tag">Product Design</span>
+            <span class="work-arrow" aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>Orbit Mobile</h3>
+          <p>Example project layout included with the template.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Testimonials</p>
+      <h2 class="section-title" data-reveal>What partners<br>say about working with us.</h2>
+    </div>
+
+    <div class="testimonial-slider glass" data-reveal>
+      <div class="testimonial-track" id="testimonialTrack">
+        <blockquote class="testimonial-slide is-active">
+          <p>“Lumen didn't just redesign our site — they rebuilt how we think about our own brand. The final result gave our brand a polished, confident presence.”</p>
+          <footer>
+            <span class="testimonial-avatar" aria-hidden="true"></span>
+            <div>
+              <cite>Demo Client</cite>
+              <span>Founder, Forma Studio</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-slide">
+          <p>“Clean structure, thoughtful interactions, and an excellent foundation for a studio website.”</p>
+          <footer>
+            <span class="testimonial-avatar" aria-hidden="true"></span>
+            <div>
+              <cite>Demo Founder</cite>
+              <span>Head of Product, Atlas Analytics</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-slide">
+          <p>“The template gave us a polished starting point and made customization surprisingly fast.”</p>
+          <footer>
+            <span class="testimonial-avatar" aria-hidden="true"></span>
+            <div>
+              <cite>Demo Creative Director</cite>
+              <span>CEO, Northstar Finance</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+
+      <div class="testimonial-controls">
+        <button class="testimonial-btn" id="testimonialPrev" aria-label="Previous testimonial">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="testimonial-dots" id="testimonialDots" role="tablist" aria-label="Select testimonial"></div>
+        <button class="testimonial-btn" id="testimonialNext" aria-label="Next testimonial">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section class="pricing section" id="pricing">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Pricing</p>
+      <h2 class="section-title" data-reveal>Pricing sections,<br>ready to customize.</h2>
+      <p class="section-desc" data-reveal>Example pricing cards included to demonstrate the layout. Replace the amounts and features with your own offer.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <article class="price-card glass" data-reveal data-tilt>
+        <h3>Brand Sprint</h3>
+        <p class="price-desc">Example service package for an early-stage client.</p>
+        <p class="price-amount"><span class="price-currency">$</span>49</p>
+        <ul class="price-features">
+          <li>Strategy &amp; positioning workshop</li>
+          <li>Logo &amp; visual identity system</li>
+          <li>Brand guidelines document</li>
+          <li>2 rounds of revisions</li>
+          <li>3-week delivery</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-block"><span>Get started</span></a>
+      </article>
+
+      <article class="price-card price-card-featured glass" data-reveal data-tilt>
+        <span class="price-badge">Most popular</span>
+        <h3>Brand + Web</h3>
+        <p class="price-desc">Example premium package combining brand and website work.</p>
+        <p class="price-amount"><span class="price-currency">$</span>79</p>
+        <ul class="price-features">
+          <li>Everything in Brand Sprint</li>
+          <li>Custom marketing website (up to 8 pages)</li>
+          <li>Responsive &amp; performance-optimized build</li>
+          <li>CMS setup &amp; handoff training</li>
+          <li>6-week delivery</li>
+        </ul>
+        <a href="#contact" class="btn btn-dark btn-block"><span>Get started</span></a>
+      </article>
+
+      <article class="price-card glass" data-reveal data-tilt>
+        <h3>Product Partner</h3>
+        <p class="price-desc">Example monthly support package for product teams.</p>
+        <p class="price-amount"><span class="price-currency">$</span>129<span class="price-period">/mo</span></p>
+        <ul class="price-features">
+          <li>Dedicated senior designer</li>
+          <li>Weekly working sessions</li>
+          <li>Design system maintenance</li>
+          <li>Unlimited requests, one at a time</li>
+          <li>Cancel anytime</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-block"><span>Get started</span></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq section" id="faq">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> FAQ</p>
+      <h2 class="section-title" data-reveal>FAQ sections,<br>ready to customize.</h2>
+    </div>
+
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>How long does a typical project take?</span>
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer">
+          <p>Replace this answer with your own delivery timeline, process, and scope details.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Do you work with early-stage startups?</span>
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer">
+          <p>Replace this demo answer with your own client or service information.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>What does the revision process look like?</span>
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer">
+          <p>Explain your revision policy, approval process, and communication workflow here.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can you work with our existing engineering team?</span>
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer">
+          <p>Use this answer to explain how you collaborate with clients, developers, or internal teams.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>What's not included in the packages above?</span>
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer">
+          <p>List anything that is outside your standard package, such as hosting, copywriting, photography, or third-party services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact section" id="contact">
+    <div class="contact-grid">
+      <div class="contact-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Contact</p>
+        <h2 class="section-title" data-reveal>Customize your<br>contact section.</h2>
+        <p class="section-desc" data-reveal>
+          This is a front-end demo form. Connect it to your preferred
+          form backend, API, or email service before publishing.
+        </p>
+
+        <ul class="contact-details" data-reveal>
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+10000000000">+1 (000) 000-0000</a>
+          </li>
+          <li>
+            <span class="contact-label">Studio</span>
+            <span>Your City, Your Country</span>
+          </li>
+        </ul>
+
+        <div class="contact-socials" data-reveal>
+          <a href="#" aria-label="Instagram — replace this link">Instagram</a>
+          <a href="#" aria-label="LinkedIn — replace this link">LinkedIn</a>
+          <a href="#" aria-label="Dribbble — replace this link">Dribbble</a>
+          <a href="#" aria-label="X / Twitter — replace this link">X / Twitter</a>
+        </div>
+      </div>
+
+      <form class="contact-form glass" id="contactForm" data-reveal novalidate>
+        <div class="form-row">
+          <div class="field">
+            <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder=" ">
+            <label for="cf-name">Full name</label>
+            <span class="field-error" id="err-name" role="alert"></span>
+          </div>
+          <div class="field">
+            <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder=" ">
+            <label for="cf-email">Email address</label>
+            <span class="field-error" id="err-email" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <input type="text" id="cf-company" name="company" autocomplete="organization" placeholder=" ">
+          <label for="cf-company">Company (optional)</label>
+        </div>
+
+        <div class="field">
+          <select id="cf-budget" name="budget" required>
+            <option value="" disabled selected></option>
+            <option value="under-5k">Under $5k</option>
+            <option value="5k-10k">$5k – $10k</option>
+            <option value="10k-25k">$10k – $25k</option>
+            <option value="25k-plus">$25k+</option>
+          </select>
+          <label for="cf-budget" class="select-label">Estimated budget</label>
+          <span class="field-error" id="err-budget" role="alert"></span>
+        </div>
+
+        <div class="field">
+          <textarea id="cf-message" name="message" rows="4" required placeholder=" "></textarea>
+          <label for="cf-message">Tell us about the project</label>
+          <span class="field-error" id="err-message" role="alert"></span>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-block">
+          <span class="btn-label">Send message</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-word">Lumen</span>
+      <p>A premium website template for creative studios, agencies, freelancers, and modern businesses.</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Studio">
+      <h4>Studio</h4>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="Resources">
+      <h4>Resources</h4>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#top">Back to top</a>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <form class="footer-form" id="footerForm">
+        <label for="footer-email" class="sr-only">Email address</label>
+        <input type="email" id="footer-email" placeholder="Your email" required>
+        <button type="submit" aria-label="Subscribe">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Lumen Template. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="#" aria-label="Replace with your privacy policy">Privacy</a>
+      <a href="#" aria-label="Replace with your terms">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 10L8 5L3 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>

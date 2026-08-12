@@ -1,0 +1,34 @@
+LUMEN — COMMERCIAL TEMPLATE LICENSE
+Version 1.0 — 2026
+
+1. PERMITTED USE
+You may use the template to create websites and end products for yourself or for clients. You may modify the included HTML, CSS, JavaScript, SVG artwork, text, colors, typography, layout, and other source files.
+
+2. END-PRODUCT USE
+The template may be used to create commercially published websites and other end products.
+
+3. NOT PERMITTED
+You may not resell, redistribute, sublicense, upload, give away, or repackage the original template source as a standalone competing template/code product.
+
+4. CLIENT PROJECTS
+You may customize the template for client websites and deliver the resulting customized website as part of the client project. The unmodified source may not be delivered as a standalone resale product.
+
+5. DEMO CONTENT
+Names, statistics, testimonials, project descriptions, contact details, pricing, and other demo content are supplied for presentation purposes. Replace them with truthful project-specific content before using the template as a real business website.
+
+6. THIRD-PARTY SERVICES
+External services such as Google Fonts are governed by their own licenses and terms. The buyer is responsible for checking any external service they keep or add.
+
+7. SUPPORT AND UPDATES
+Support, updates, compatibility fixes, and future versions are provided only if explicitly stated on the product sales page.
+
+8. NO WARRANTY
+The template is provided "as is" without a guarantee that it will meet every browser, hosting environment, accessibility requirement, legal requirement, or future platform requirement.
+
+9. COPYRIGHT
+The template source remains the property of its author. This license grants usage rights; it does not transfer copyright ownership.
+
+10. MARKETPLACE TERMS
+If sold through a marketplace, that marketplace's applicable terms and the published product license also apply.
+
+For legal questions about licensing, consult a qualified professional.
